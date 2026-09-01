@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+    color: #1a202c;
+}
+header, aside, footer{
+    text-align: center;
+}
+aside{
+    display: block;
+    unicode-bidi: isolate;
+}
+blockquote{
+    font-style: italic;
+}
+small{
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+}
+strong{
+    color: red;
+}
+h1, h2{
+    color: blue;
+    text-transform: uppercase;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+h2 {
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+}
+h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    display: block;
+    margin-block-start: 17px;
+    margin-block-end: 17px;
+    color: gray;
+}
+.espaco {
+    margin-block-end: 10px;
+}
+main{
+    padding: 20px;
+}
